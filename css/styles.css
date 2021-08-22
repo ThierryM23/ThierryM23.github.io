@@ -1,0 +1,70 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background: var(--Dark-cyan);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 326px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.card-header {
+  width: 100%;
+  display: block;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #989898FF;
+}
+.card-body-img {
+  border: 5px solid White;
+  border-radius: 50%;
+  margin-top: -50px;
+  background-color: white;
+}
+.card-body-title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+.card-body-title span {
+  color: var(--Dark-gray);
+  font-weight: 400;
+}
+.card-body-text {
+  color: var(--Dark-gray);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=styles.css.map */
